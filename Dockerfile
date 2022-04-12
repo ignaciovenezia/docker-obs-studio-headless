@@ -10,7 +10,7 @@ RUN apt-get update \
     && apt-get update \
     && apt-get install -y --no-install-recommends \
         ffmpeg \
-        obs-studio=${OBS_VERSION} \
+        obs-studio \
         vlc \
     && apt-get autoclean \
     && apt-get autoremove \
